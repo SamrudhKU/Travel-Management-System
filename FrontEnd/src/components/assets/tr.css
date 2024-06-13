@@ -1,0 +1,10 @@
+/* Reviews.css */
+
+.review {
+    width: 100%;
+}
+
+.review .tr {
+    margin-bottom: 20px;
+    /* Add margin-bottom */
+}

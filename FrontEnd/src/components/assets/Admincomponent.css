@@ -1,0 +1,74 @@
+.dialogue-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+
+}
+
+.createconatiner {
+    font-size: large;
+    width: 22rem;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: max-content;
+    border: 2px solid black;
+    box-shadow: 0px 0px rgb(141, 35, 100);
+    margin-bottom: 10px;
+}
+.createconatiner input,textarea{
+    font-size: larger;
+    font-weight: bold;
+}
+.createconatiner #description {
+    height: 10vw;
+}
+
+#createbtn {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    background-color: red;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.btns {
+    /* font-size: 100rem; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    width: 15rem;
+    font-size: ;
+}
+.btns div {
+    margin-right: 10px;
+}
+
+h1 {
+    color: blue;
+
+    margin-left: 43vw;
+}
+
+#Adminheading {
+    background-color: aliceblue;
+}
+
+.handlebookingscontainer {
+    margin-bottom: 20px;
+}
+
+.handlebookingscontainer td:last-child {
+    border-bottom: none;
+}

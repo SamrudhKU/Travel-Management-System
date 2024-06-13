@@ -1,0 +1,142 @@
+.packages-container {
+    padding: 20px;
+}
+
+.Packageitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* Distribute items evenly along the main axis */
+}
+
+.PackageCard {
+    width: calc(30% - 10px);
+    /* Adjust width and margin as needed */
+    margin-bottom: 20px;
+    /* Adjust margin as needed */
+}
+
+
+/* Or, enable smooth scrolling on the entire document */
+body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+#yourbookings tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+    /* Light gray background for even rows */
+}
+
+#yourbookings tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+    /* White background for odd rows */
+}
+
+#yourbookings thead tr th {
+    background-color: rgb(197, 251, 248);
+    color: black;
+}
+
+#yourbookings thead tr {
+    border: 2px solid black;
+}
+
+#yourbookings {
+    border: 2px solid black;
+}
+
+#yourbookings th,
+#yourbookings td {
+    border-right: 2px solid black;
+    /* Add border to the right of each cell */
+}
+
+#yourbookings th:last-child,
+#yourbookings td:last-child {
+    border-right: none;
+    /* Remove border from the last column to avoid double borders */
+}
+
+#yourbookings td {
+    padding-left: 10px;
+    /* Adjust the value as needed */
+    padding-right: 10px;
+    /* Adjust the value as needed */
+}
+
+.userbookingdiv {
+    background-color: rgb(254, 243, 229);
+}
+
+.mainbookingdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbookingdiv div {
+    margin-bottom: 20px;
+}
+
+
+.review {
+    border: none;
+    background-color: #f9f4f4;
+
+}
+
+.reviewdiv td {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.review {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.reviewdiv {
+    display: flex;
+    align-items: center;
+}
+
+.imagediv {
+    margin-right: 10px;
+    /* Adjust margin as needed */
+}
+
+.imagetd img {
+    width: 50px;
+    /* Adjust image size as needed */
+    height: 50px;
+    /* Adjust image size as needed */
+    border-radius: 50%;
+    /* Ensure the image is round */
+}
+
+.usernametd {
+    flex-grow: 1;
+}
+
+/* Optional: Adjust spacing and alignment */
+.reviewdiv,
+.imagediv,
+.usernametd,
+td {
+    padding: 5px;
+}
+
+.Reviews {
+    border: none;
+}

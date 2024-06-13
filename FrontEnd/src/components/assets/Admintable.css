@@ -1,0 +1,40 @@
+img {
+    width: 20vw;
+    height: 15vw;
+}
+
+.tableadmin{
+    font-size: larger;
+}
+tr {
+    background-color: rgb(254, 243, 229);
+
+
+}
+
+table {
+    margin-left: -10rem;
+    width: 70rem;
+    
+    border: 2px solid black;
+}
+
+table th,
+table tr,
+table td {
+    font-size: 1.2rem;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+table td:last-child,
+table th:last-child {
+    border-right: none;
+    border-bottom: none;
+}
+
+.deleandupdatediv {
+    display: flex;
+    justify-content: space-evenly;
+}

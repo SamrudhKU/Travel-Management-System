@@ -1,0 +1,103 @@
+.dialog-box {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40rem;
+    height: 30rem;
+    background-color: #171616;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    /* Ensure this is higher than the original page content */
+}
+
+.dialog-box label{
+    width: 500rem;
+    text-align: right;
+}
+
+.dialog-box input{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-size: large;
+    font-weight: 600; 
+}
+
+.dialog-box input #packageName{
+    margin-left: 15px;
+    width: 250px;
+
+}
+
+.dialog-box input #mobilenumber{
+    margin-left: 40px;
+    width: 250px;
+}
+
+.dialog-box input #dateOfTrip{
+    width: 250px;
+    margin-left: 102px;
+}
+
+.close-btn {
+    margin-top: -1.8rem;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.login-btn{
+    margin-top: -1.8rem;
+    margin-left: 35rem;
+    background-color: green;
+}
+
+/* .submit-btn {
+    margin-left: 35rem;
+    background-color: green;
+} */
+
+.submit-btn{
+    margin-left: 35rem;
+    background-color: green;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h4 {
+    color: aqua;
+}
+
+/* #bookform {
+    display: flex;
+    flex-direction: column;
+} */
+
+.close-btn:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+/* styles.css */
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#h3 h3 {
+    color: red;
+    animation: rotate 5s linear infinite;
+}
